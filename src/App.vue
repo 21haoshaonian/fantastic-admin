@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import api from './api'
 export default {
     data() {
         return {}
@@ -29,11 +30,15 @@ export default {
             immediate: true
         }
     },
+
     mounted() {
         window.onresize = () => {
             this.$store.commit('settings/setMode', document.body.clientWidth)
         }
         window.onresize()
+        api.get('http://127.0.0.1:4523/mock/383869/sso/getAuthCode').then(data => {
+            console.log(data)
+        })
     },
     methods: {},
     metaInfo() {

@@ -1,24 +1,24 @@
 <template>
     <div class="buy-it">
-        <div class="item" @click="open('http://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes')">
+        <div class="item" @click="open('http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes')">
             <svg-icon name="fixed-right-qq" />
-            <span class="title">在线<br>咨询</span>
+            <span class="title">联系<br>我</span>
         </div>
-        <div class="item chat" @click="open('https://qm.qq.com/cgi-bin/qm/qr?k=WoDBYN0S9r94f9oBZkxlGbiYxu3dEzgt&jump_from=webapi')">
+        <div class="item chat" @click="open('https://wsso.h3c.com/')">
             <svg-icon name="fixed-right-chat" />
-            <span class="title">加入<br>QQ群</span>
+            <span class="title">加入<br>我们</span>
         </div>
-        <div class="item buy" @click="open('https://hooray.gitee.io/fantastic-admin/buy.html')">
+        <div class="item buy" @click="open('https://wsso.h3c.com/')">
             <svg-icon name="fixed-right-buy" />
-            <span class="title">购买<br>专业版</span>
+            <span class="title">简单<br>介绍</span>
         </div>
-        <div class="item doc" @click="open('https://hooray.gitee.io/fantastic-admin/')">
+        <div class="item doc" @click="open('https://wsso.h3c.com/')">
             <svg-icon name="fixed-right-doc" />
             <span class="title">开发<br>文档</span>
         </div>
-        <div class="item code" @click="open('https://gitee.com/hooray/fantastic-admin/')">
+        <div class="item code" @click="open('https://wsso.h3c.com/')">
             <svg-icon name="fixed-right-code" />
-            <span class="title">下载<br>基础版</span>
+            <span class="title">下载<br></span>
         </div>
     </div>
 </template>
@@ -31,8 +31,8 @@ export default {
             title: '温馨提示',
             dangerouslyUseHTMLString: true,
             message: `
-                <p>当前访问的是<b>基础版</b></p>
-                <p>你可以点<a href="https://hooray.gitee.io/fantastic-admin/pro/" target="_blank"><b>这里</b></a>访问专业版</p>
+                <p>嘿<b>看这里</b></p>
+                <p>你可以点<a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"" target="_blank"><b>这里</b></a>跟我交流</p>
             `,
             position: 'bottom-right',
             duration: 0

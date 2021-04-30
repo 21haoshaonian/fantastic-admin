@@ -6,39 +6,39 @@ let globalSettings = {
      * 3、鉴权指令：v-auth、v-auth-all
      * 4、鉴权函数：this.$auth()、this.$authAll()
      */
-    openPermission: false,
+    openPermission: true,
     // 是否显示头部
-    showHeader: false,
+    showHeader: true,
     // 是否始终显示主侧边栏，设置为 false 且主侧边栏里只有一个导航时，主侧边栏会自动隐藏
-    alwaysShowMainSidebar: false,
+    alwaysShowMainSidebar: true,
     // 是否开启侧边栏展开收起按钮
-    enableSidebarCollapse: false,
+    enableSidebarCollapse: true,
     // 侧边栏是否收起
-    sidebarCollapse: false,
+    sidebarCollapse: true,
     // 是否显示底部版权信息，同时在路由 meta 对象里可以单独设置某个路由是否显示底部版权信息
     showCopyright: true,
     // 版权信息配置，格式为：Copyright © [dates] <company>
     copyrightDates: '2021',
-    copyrightCompany: 'Fantastic-admin',
-    copyrightWebsite: 'https://hooray.gitee.io/fantastic-admin',
+    copyrightCompany: 'H3c',
+    copyrightWebsite: 'https://wsso.h3c.com/',
     // 是否开启导航搜索
     enableNavSearch: true,
     // 是否开启全屏
     enableFullscreen: false,
     // 是否开启页面刷新
-    enablePageReload: false,
+    enablePageReload: true,
     // 是否开启载入进度条
     enableProgress: true,
     // 是否开启动态标题
-    enableDynamicTitle: false,
+    enableDynamicTitle: true,
     // 是否开启控制台
-    enableDashboard: true,
+    enableDashboard: false,
     // 是否开启扁平化路由，开启后三级以及三级以上的嵌套路由均为被处理成二级，但侧边栏导航的层级效果不变
     enableFlatRoutes: false,
     // 控制台名称
     dashboardTitle: '控制台',
     // 是否开启主题配置（建议在生产环境关闭）
-    enableThemeSetting: true
+    enableThemeSetting: false
 }
 
 // 演示&开发环境开启全部功能（这部分代码可删除，仅方便作者打包演示环境）
